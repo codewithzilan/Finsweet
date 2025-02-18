@@ -1,0 +1,106 @@
+.common-button a{
+    background: transparent;
+    padding:16px 48px ;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Manrope", serif;
+    border-radius: 41px;
+    border: 1px solid rgba(244, 246, 252, 0.2);
+    transition: .4s;
+    display: inline-block;
+}
+.common-button a:hover{
+    background: #FCD980;
+    color: black;
+    border-color: transparent;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+/* ======================
+      navbar start
+========================= */
+nav{
+    background: #1C1E53;
+    padding: 16px 0px !important;
+}
+.navbar-nav{
+    column-gap: 32px;
+}
+.nav-link{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    color: #BBBBCB;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-button{
+    margin-left: 42px;
+}
+.nav-button a{
+    background: transparent;
+    padding:16px 48px ;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    border-radius: 41px;
+    border: 1px solid rgba(244, 246, 252, 0.2);
+    transition: .4s;
+}
+.nav-button a:hover{
+    background: #FCD980;
+    color: black;
+    border-color: transparent;
+}
+/* ========================
+        banner start  
+  =========================*/
+  .banner{
+    background: #1C1E53;
+    padding: 126px 0px;
+  }
+  .banner h1{
+    font-family: "Poppins", serif;
+    font-size: 54px;
+    font-weight: 600;
+    color: white;
+    line-height: 74px;
+}
+.banner p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255,.70);
+    line-height: 28px;
+    width:562px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+.view-angel{
+    display: flex;
+    align-items: center;
+}
+.common-button-two a{
+    color: #F4F6FC;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    padding-left: 40px;
+    transition: .4s;
+}
+.common-button-two a:hover{
+   font-size: 20px;
+}
+  /* ========================
+        banner end  
+  =========================*/
