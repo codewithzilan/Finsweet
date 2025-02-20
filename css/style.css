@@ -104,3 +104,220 @@ nav{
   /* ========================
         banner end  
   =========================*/
+
+  /* ========================
+        work start  
+  =========================*/
+  .work{
+    background: #F4F6FC;
+    padding: 128px 0px;
+    position: relative;
+  }
+.work h3{
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+  }
+.work .para{
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 405px;
+    padding: 16px 0px;
+}
+.work a{
+    color: #2405F2 !important;
+    position: absolute;
+    left: 165px;
+}
+.work .box{
+    row-gap: 48px;
+    column-gap: 20px;
+}
+.work .work-box{
+    width: 328px;
+}
+.box .work-box h5{
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    padding: 8px 0px;
+}
+.box .work-box p{
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+  /* ========================
+        work end  
+  =========================*/
+
+  /* ========================
+        project start  
+  =========================*/
+.project .box{ 
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 64px 0px;
+}
+.project .box h2{
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+}
+.project a{
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    width: 200px;
+    padding: 64px 0px;
+    position: absolute;
+    top: 20px;
+    left: 1080px;
+}
+.project .project-layout{
+    position: relative;
+    overflow: hidden;
+}
+.project .project-layout .overlay{
+    position: absolute;
+    top: 0px;
+    left: -52%;
+    width: 52%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right ,rgba(28, 30, 83, 0.42),#1C1E53);
+    transition: 1s;
+}
+.project .project-layout:hover .overlay{ 
+    left: 0px;
+}
+.project .overlay{
+    position: relative;
+}
+.project .overlay h3{
+    color: #FFFFFF;
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    width: 313px;
+    top: 300px;
+    left: 80px;
+}
+.project .overlay p{
+    color: #FFFFFF;
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    width: 293px;
+    top: 400px;
+    left: 80px;
+}
+.overlay a{
+    color: #FCD980 !important;
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    top: 450px;
+    left: 100px;
+}
+.project .box-2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.project .box-2{
+    position: relative;
+    overflow: hidden;
+}
+.box-2 .overlay-2{
+    position: absolute;
+    top: -300px;
+    left: 0px;
+    width: 97%;
+    height: 50%;
+    background-image: linear-gradient(to bottom right ,rgba(28, 30, 83, 0.42),#1C1E53);
+    transition: 1s;
+}
+ .box-2 .customer:hover .overlay-2{
+    top: 0px;
+}
+.box-2 .overlay-2 h4{
+    color: #FFFFFF;
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    width: 313px;
+    top: 150px;
+    left: 40px;
+}
+.overlay-2 a{
+    color: #FCD980 !important;
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    top: 150px;
+    left: 80px;
+}
+.project .box-3{
+    position: relative;
+    overflow: hidden;
+}
+.box-3 .overlay-3{
+    position: absolute;
+    top: 330px;
+    left: 0px;
+    width: 97%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right ,rgba(28, 30, 83, 0.42),#1C1E53);
+    transition: 1s;
+}
+.box-3:hover .overlay-3{
+    top: 0px;
+}
+.box-3 .overlay-3 h4{
+    color: #FFFFFF;
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    width: 313px;
+    top: 150px;
+    left: 40px;
+}
+.overlay-3 a{
+    color: #FCD980 !important;
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    top: 150px;
+    left: 80px;
+}
+  /* ========================
+        project end  
+  =========================*/
