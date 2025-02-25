@@ -321,3 +321,176 @@ nav{
   /* ========================
         project end  
   =========================*/
+  /* ========================
+        card-design start  
+  =========================*/
+  .card-design{
+    padding: 168px 0px;
+    background-color: #F4F6FC;
+  }
+  .card-design p{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    text-align: center;
+    margin: auto;
+  }
+  .card-design h2{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    width: 630px;
+    text-align: center;
+    margin: auto;
+  }
+  .card-design .card{
+    width: 405px !important;
+    padding: 58px 48px;
+    border: 0px;
+    border-radius: 0px;
+  }
+  .card-design .card img{
+    width: 10%;
+  }
+  .card-design .card .card-body{
+   padding: 0 !important;
+  }
+  .card-design .card-body h3{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    padding-top: 23px;
+    padding-bottom: 12px;
+  }
+  .card-design .card-body p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    text-align: left;
+  }
+  /* ========================
+        card-design end  
+  =========================*/
+
+   /* ========================
+        client start  
+  =========================*/
+  .client{
+    padding: 130px 0px;
+    background-color: rgba(244, 246, 252,0.50);
+    position: relative;
+  }
+  .client h2{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    width: 327px;
+  }
+  .client p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    width: 327px;
+    padding-top: 16px;
+  }
+  .client h3{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282938;
+    width: 843px;
+  }
+  .client .profile{
+    display: flex;
+    padding: 48px 0px;
+    
+  }
+  .client .profile h4{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+    position: absolute;
+    top: 330px;
+    left: 710px;
+  }
+  .client .profile p{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #282938;
+    position: absolute;
+    top: 340px;
+    left: 710px;
+  }
+   /* ========================
+        client end  
+  =========================*/
+
+  /* ========================
+        faq start 
+  =========================*/
+  .faq{
+    padding: 128px 0px;
+  }
+  .faq h1{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    width: 328px;
+  }
+  .faq a{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2405F2;
+  }
+  .faq .accordion-item{
+    border: 0px;
+    border-bottom: 2px solid #ECECF1;
+    
+  }
+  .faq .accordion-item h2{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+  }
+  .faq .accordion-item span{
+    color: #2405F2;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    padding-right: 60px;
+  }
+  .faq .accordion-item .accordion-body{
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    padding-left: 60px;
+  }
+  /* ========================
+        faq end  
+  =========================*/
